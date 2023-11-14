@@ -17,7 +17,7 @@ def driver():
 
 
 def test_authorization_pnumber_pass(driver):
-    """Проверяем стандартную авторизацю по почте и паролю"""
+    """Проверяем стандартную авторизацю по телефону и паролю"""
 
     # Вводим телефон УЗ
     driver.find_element(By.ID, 'username').send_keys(valid_pnumber)
